@@ -49,7 +49,7 @@ graph TD
 
     ```bash
     git clone https://github.com/emansarahafi/research-assistant-agent.git
-    cd research-assistant
+    cd research-assistant-agent
     ```
 
 2. **Install dependencies**:
