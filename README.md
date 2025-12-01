@@ -26,7 +26,7 @@ The system follows a hierarchical multi-agent pattern:
 
 ```mermaid
 graph TD
-    User[User Query] --> Root[Root Agent (Orchestrator)]
+    User[User Query] --> Root["Root Agent (Orchestrator)"]
     Root -->|Delegates Search| Researcher[Researcher Agent]
     Researcher -->|Calls| ArXiv[ArXiv API]
     Root -->|Delegates Analysis| Analyst[Analyst Agent]
