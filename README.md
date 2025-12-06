@@ -98,22 +98,9 @@ The project includes a Flask wrapper for local testing.
       --agent-package-path="vertex_agent_deployment/"
     ```
 
-## 📂 Project Structure
-
-```
-.
-├── research-assistant-agent.ipynb  # Main project notebook
-├── vertex_agent_deployment/        # Generated deployment package
-│   ├── agent.py                    # Full multi-agent source code
-│   ├── requirements.txt            # Python dependencies
-│   └── config.json                 # Vertex AI config
-├── research-agent/                 # ADK Web UI package
-└── knowledge_base.json             # Persistent memory file (generated)
-```
-
 ## 📝 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
 
 ## ❓ Troubleshooting
 
